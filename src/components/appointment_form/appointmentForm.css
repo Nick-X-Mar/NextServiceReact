@@ -1,0 +1,21 @@
+.textAreaStyle {
+    width: 75%;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 2%;  /* padding to the left */
+    padding-right: 2%;  /* padding to the right */
+  }
+
+.submitButton {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.textAreaLabel {
+    width: 100%;
+    display: block;
+}

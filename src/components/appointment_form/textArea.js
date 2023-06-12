@@ -1,11 +1,13 @@
 import React from 'react';
+import './appointmentForm.css';
 
 const TextArea = ({ value, onChange, placeholder }) => (
   <textarea
     value={value}
     onChange={onChange}
     placeholder={placeholder}
-    style={{ width: '100%', height: '300px', fontSize: '20px' }}
+    className="textAreaStyle" // apply the css class
+    rows={1}
   />
 );
 

@@ -1,0 +1,23 @@
+:root {
+    --bright-orange: #FFA500;
+    --shadowy-orange: #CC8400;
+  }
+  
+  .custom-navbar .nav-link {
+    color: var(--shadowy-orange);
+  }
+  
+  .custom-navbar .nav-link:hover,
+  .custom-navbar .nav-link.active {
+    color: var(--bright-orange);
+  }
+  
+  .custom-navbar a {
+    color: var(--shadowy-orange);
+  }
+  
+  .custom-navbar a:hover,
+  .custom-navbar a.active {
+    color: var(--bright-orange);
+  }
+  

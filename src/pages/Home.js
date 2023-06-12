@@ -1,4 +1,4 @@
-import AppointmentForm from "../components/landingPage/appointmentForm";
+import AppointmentForm from "../components/appointment_form/appointmentForm";
 
 const Home = () => {
 //   const { posts, loading, error } = useFetch('/api/posts', "GET");
